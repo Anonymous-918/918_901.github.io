@@ -1270,6 +1270,7 @@ audio {
 .message {
 	margin-top: 200px;
 	display: none;
+	background-image: url('./banner.png');
 }
 .message p {
 	font-family: 'Signika', sans-serif;
