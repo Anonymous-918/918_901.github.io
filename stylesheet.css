@@ -1270,6 +1270,16 @@ audio {
 .message {
 	margin-top: 200px;
 	display: none;
+	
+}
+.message p {
+	font-family: 'Signika', sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #C4515C;
+	text-shadow: 2px 2px 2px #FFF;
+	display: none;
+	font-weight: bold;
 	background-image: url('./banner.png');
 	background-size: 500px;
 	-webkit-animation: background-image linear 10s infinite;
@@ -1282,15 +1292,6 @@ audio {
 	-ms-transform: rotate(30deg);
 	animation: background-image linear 10s infinite;
 	transform: rotate(30deg);
-}
-.message p {
-	font-family: 'Signika', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #C4515C;
-	text-shadow: 2px 2px 2px #FFF;
-	display: none;
-	font-weight: bold;
 }
 
 .btn-primary {
