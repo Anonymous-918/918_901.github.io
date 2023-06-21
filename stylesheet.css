@@ -1271,6 +1271,17 @@ audio {
 	margin-top: 200px;
 	display: none;
 	background-image: url('./banner.png');
+	background-size: 500px;
+	-webkit-animation: background-image linear 10s infinite;
+	-webkit-transform: rotate(30deg);
+	-moz-animation: background-image linear 10s infinite;
+	-moz-transform: rotate(30deg);
+	-o-animation: background-image linear 10s infinite;
+	-o-transform: rotate(30deg);
+	-ms-animation: background-image linear 10s infinite;
+	-ms-transform: rotate(30deg);
+	animation: background-image linear 10s infinite;
+	transform: rotate(30deg);
 }
 .message p {
 	font-family: 'Signika', sans-serif;
