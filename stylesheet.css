@@ -1,7 +1,7 @@
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
-	-webkit-transition:background-color linear 5s;
+	-webkit-transition:background-color step-start 5s;
 	-moz-transition:background-color linear 5s;
 	-o-transition:background-color linear 5s;
 	-ms-transition:background-color linear 5s;
@@ -12,7 +12,7 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
+	background-color: rgb(129, 138, 77);
 	
 }
 .peach-after {
@@ -25,19 +25,19 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: rgb(129, 138, 77);
 	}
 	25%{
 		background-color: rgb(129, 138, 77);
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: rgb(129, 138, 77);
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: rgb(129, 138, 77);
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: rgb(129, 138, 77);
 	}
 }
 @-moz-keyframes peach_alive {
