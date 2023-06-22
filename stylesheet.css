@@ -28,7 +28,7 @@ body {
 		background-color: #FFDAB9;
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: rgb(129, 138, 77);
 	}
 	50%{
 		background-color: #FFDAB9;
@@ -1300,6 +1300,11 @@ audio {
         color: #fff;
         background-color: #466baf;
     }
+
+	.col-md-12 {
+
+	}
+	
 
 
 
